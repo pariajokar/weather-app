@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/sunset.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* .App::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+} */
+
+.top-sec {
+    width: 100%;
+    height: 50vh;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.city {
+    width: 70%;
+    padding-top: 20px;
+    /* padding-right: 20px; */
+    height: inherit;
+    /* border: 2px solid yellow; */
+    font-size: 3.3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city>input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    height: 7vh;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.1)
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.685)
+}
+
+.city>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red */
+}
+
+.status {
+    font-size: 1.9rem;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.status p {
+    width: 40%;
+    /* transform: rotate(-90deg); */
+    /* border: 1px solid red; */
+}
+
+.city-name {
+    font-size: 1.8rem
+}
+
+.status {
+    width: 30%;
+    height: inherit;
+    /* border: 2px solid red; */
+}
+
+.bottom-sec {
+    width: 100%;
+    height: 30vh;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-sec>section {
+    width: 55%;
+    height: 20vh;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+}
+
+.div {
+    /* border: 1px solid red; */
+    width: 33.333333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem
+}
+
+.div p {
+    font-size: 1.3rem
+}
